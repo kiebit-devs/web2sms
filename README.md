@@ -27,7 +27,7 @@ or sms package. Say you subscribe 10k sms for $0.4. and thats a good rate. Then 
       create cordova android platform using the command: "cordova platform add android" from any command line program like power shell from the root directory of project.
     </li>
     <li>
-      build the apk using command: "cordova build android" Or "cordova build android --release". See cordova documentation for further guidance.
+      build the apk using command: "cordova build android" Or "cordova build android --release -- --keystore=<keystore-path> --storePassword=<storepass> --alias=<alias-name> --password=<pass>". See cordova documentation for further guidance.
     </li>
   </ol>
   </p>

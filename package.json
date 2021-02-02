@@ -1,0 +1,32 @@
+{
+    "name": "com.kiebit.web2sms",
+    "displayName": "web2sms",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "@havesource/cordova-plugin-push": "^1.0.0",
+        "cordova-plugin-whitelist": "^1.3.4",
+        "cordova-sms-plugin": "^1.0.0"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-sms-plugin": {},
+            "cordova-plugin-whitelist": {},
+            "havesource-cordova-plugin-push": {},
+            "cordova-clipboard": {}
+        },
+        "platforms": [
+            "android"
+        ]
+    },
+    "devDependencies": {
+        "cordova-android": "^9.0.0",
+        "cordova-clipboard": "^1.3.0"
+    }
+}
