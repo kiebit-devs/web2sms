@@ -31,3 +31,13 @@ or sms package. Say you subscribe 10k sms for $0.4. and thats a good rate. Then 
     </li>
   </ol>
   </p>
+
+<h3>Usage</h3>
+<p>
+  Just install apk in your android. prepare your sim card for sending a lot of sms. Open the app and leave the phone idle. <br />
+  Use the app_id from the main page to your server for sending push notifications to this app using any type of backend server such as Node or Php. As Google Firebase supports all kinds of platforms.
+  </p>
+  <h3>License</h3>
+  <p>
+  Standard Github Apache License.
+  </p>
